@@ -19,11 +19,13 @@ public class BankLoginTest {
 
     @AfterEach
     void tearDown(){
+
         cleanAuthCodes();
     }
 
     @AfterAll
     static void tearDownAll(){
+
         cleanDatabase();
     }
 
